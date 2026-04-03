@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8886596268142134956
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 10
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -12,6 +25,10 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+<<<<<<< HEAD
+=======
+  - _ALPHAPREMULTIPLY_ON
+>>>>>>> 6d4c77cdc54c54726a0191cac502c1c46af56b44
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -21,14 +38,24 @@ Material:
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
+<<<<<<< HEAD
   - MOTIONVECTORS
   - DepthOnly
+=======
+  - SHADOWCASTER
+  - DepthOnly
+  - MOTIONVECTORS
+>>>>>>> 6d4c77cdc54c54726a0191cac502c1c46af56b44
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
+<<<<<<< HEAD
         m_Texture: {fileID: 2800000, guid: e476822048569394983586cee5a742f1, type: 3}
+=======
+        m_Texture: {fileID: 0}
+>>>>>>> 6d4c77cdc54c54726a0191cac502c1c46af56b44
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -88,7 +115,11 @@ Material:
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
+<<<<<<< HEAD
     - _Blend: 1
+=======
+    - _Blend: 0
+>>>>>>> 6d4c77cdc54c54726a0191cac502c1c46af56b44
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -120,11 +151,16 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 0.60784316}
+<<<<<<< HEAD
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+=======
+    - _Color: {r: 1, g: 1, b: 1, a: 0.60784316}
+>>>>>>> 6d4c77cdc54c54726a0191cac502c1c46af56b44
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+<<<<<<< HEAD
 --- !u!114 &6852724528027353478
 MonoBehaviour:
   m_ObjectHideFlags: 11
@@ -138,3 +174,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 10
+=======
+>>>>>>> 6d4c77cdc54c54726a0191cac502c1c46af56b44
